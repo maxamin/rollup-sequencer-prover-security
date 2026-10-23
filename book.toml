@@ -1,0 +1,7 @@
+[book]
+title = "Rollup Sequencer and Prover Security"
+language = "en"
+src = "."
+
+[output.html]
+git-repository-url = "https://github.com/<you>/rollup-sequencer-prover-security"

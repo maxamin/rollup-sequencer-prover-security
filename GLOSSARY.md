@@ -1,0 +1,22 @@
+# Glossary
+
+- **Sequencer:** orders L2 transactions.
+- **Soft confirmation:** sequencer's promise of inclusion before L1 posting.
+- **Forced inclusion:** L1 path to make the sequencer include a transaction.
+- **Sequencing window:** in the OP Stack, the period after which L2 nodes derive blocks with L1 deposits even if the sequencer posts nothing.
+- **Delayed inbox:** Arbitrum's L1 queue of messages that can be force-included after a delay.
+- **Derivation:** the deterministic process by which L2 nodes compute L2 blocks from L1 data.
+- **Output root / state root:** commitment to L2 state posted to L1.
+- **Fault proof:** interactive proof that a posted state root is wrong.
+- **Bisection:** repeatedly halving a disputed execution trace to isolate one step.
+- **One-step prover:** on-chain executor of a single disputed instruction.
+- **Preimage oracle:** on-chain store that supplies data to the one-step prover verifiably.
+- **Delay attack:** adversary forces many disputes to exhaust honest parties' time or capital.
+- **Validity proof:** ZK proof that a state transition is correct.
+- **Capacity checker:** sequencer-side check that a block fits within circuit limits.
+- **Verifier key:** parameters that fix which circuit an on-chain verifier accepts proofs for.
+- **Multi-proof:** design requiring agreement of two or more independent proof systems.
+- **Escape hatch:** mechanism for users to withdraw without the operator.
+- **Exit window:** time users have to leave before an upgrade takes effect.
+- **Security council:** multisig with emergency powers over a rollup.
+- **Validium:** ZK system whose data is kept off-chain by a committee.
